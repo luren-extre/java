@@ -1,0 +1,19 @@
+2020-11-30 17:18:35.106 [main] INFO  com.example.experience.Application - Starting Application on beantechsdeMacBook-Pro.local with PID 48628 (/Users/beantechs/code/springBootDemo /target/classes started by beantechs in /Users/beantechs/code/springBootDemo )
+2020-11-30 17:18:35.117 [main] INFO  com.example.experience.Application - No active profile set, falling back to default profiles: default
+2020-11-30 17:18:36.678 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.experience]' package. Please check your configuration.
+2020-11-30 17:18:37.053 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 17:18:37.061 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 17:18:37.130 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-11-30 17:18:38.088 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 17:18:38.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-30 17:18:38.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 17:18:38.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-30 17:18:38.435 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 17:18:38.435 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3216 ms
+2020-11-30 17:18:39.561 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-30 17:18:39.760 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 17:18:40.433 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 17:18:41.070 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 17:18:41.126 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-30 17:18:41.176 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 17:18:41.196 [main] INFO  com.example.experience.Application - Started Application in 6.959 seconds (JVM running for 8.464)

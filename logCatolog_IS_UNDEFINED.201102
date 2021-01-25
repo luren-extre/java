@@ -1,0 +1,65 @@
+2020-11-03 21:30:13.791 [main] INFO  com.example.experience.Application - Starting Application on bogon with PID 11218 (/Users/beantechs/code/springBootDemo /target/classes started by beantechs in /Users/beantechs/code/springBootDemo )
+2020-11-03 21:30:13.802 [main] INFO  com.example.experience.Application - No active profile set, falling back to default profiles: default
+2020-11-03 21:30:15.300 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.experience]' package. Please check your configuration.
+2020-11-03 21:30:15.575 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 21:30:15.580 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 21:30:15.618 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-11-03 21:30:16.626 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5678 (http)
+2020-11-03 21:30:16.641 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5678"]
+2020-11-03 21:30:16.642 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-03 21:30:16.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 21:30:16.922 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-03 21:30:16.922 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3013 ms
+2020-11-03 21:30:17.983 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-03 21:30:18.141 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-03 21:30:18.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 21:30:19.465 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-03 21:30:19.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5678"]
+2020-11-03 21:30:19.551 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 5678 is already in use
+2020-11-03 21:30:19.553 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-03 21:30:19.555 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-03 21:30:19.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-5678"]
+2020-11-03 21:30:19.585 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-03 21:30:19.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5678"]
+2020-11-03 21:30:19.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-5678"]
+2020-11-03 21:30:19.605 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-03 21:30:19.612 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5678 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5678 or configure this application to listen on another port.
+
+2020-11-03 21:30:42.310 [main] INFO  com.example.experience.Application - Starting Application on bogon with PID 11220 (/Users/beantechs/code/springBootDemo /target/classes started by beantechs in /Users/beantechs/code/springBootDemo )
+2020-11-03 21:30:42.317 [main] INFO  com.example.experience.Application - No active profile set, falling back to default profiles: default
+2020-11-03 21:30:43.651 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.experience]' package. Please check your configuration.
+2020-11-03 21:30:43.974 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-03 21:30:43.977 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-03 21:30:44.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-11-03 21:30:44.713 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-03 21:30:44.725 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-03 21:30:44.725 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-03 21:30:44.725 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-03 21:30:44.925 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-03 21:30:44.926 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2517 ms
+2020-11-03 21:30:45.845 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-03 21:30:45.999 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-03 21:30:46.567 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-03 21:30:47.182 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-03 21:30:47.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-03 21:30:47.281 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-03 21:30:47.299 [main] INFO  com.example.experience.Application - Started Application in 5.77 seconds (JVM running for 7.34)
+2020-11-03 21:30:47.683 [RMI TCP Connection(2)-10.33.53.2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-03 21:30:47.683 [RMI TCP Connection(2)-10.33.53.2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-03 21:30:47.696 [RMI TCP Connection(2)-10.33.53.2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-03 21:54:19.123 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-03 21:54:19.130 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
