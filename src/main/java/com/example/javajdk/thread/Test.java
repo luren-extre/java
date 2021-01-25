@@ -13,7 +13,6 @@ public class Test {
 
     }
 
-
     /**
      * 调用Thread类的start()方法
      * start()先判断线程当前的状态，然后调用本地方法native(),然后native()启动线程，执行run()中的任务逻辑
